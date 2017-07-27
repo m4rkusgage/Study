@@ -15,6 +15,8 @@
 - (void)removeFront;
 - (void)removeBack;
 - (MGNode *)find:(id)element;
+- (MGNode *)getFirstElement;
+- (MGNode *)getLastElement;
 - (NSInteger)size;
 - (void)display;
 @end

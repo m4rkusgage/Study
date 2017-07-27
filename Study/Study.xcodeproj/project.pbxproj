@@ -26,6 +26,10 @@
 		8CA481191F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481171F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m */; };
 		8CA4811C1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4811B1F2A80A700E0B1AE /* MGLinkedListCheck.m */; };
 		8CA4811D1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4811B1F2A80A700E0B1AE /* MGLinkedListCheck.m */; };
+		8CA481201F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4811F1F2A8CF000E0B1AE /* MGStackArrayImp.m */; };
+		8CA481211F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4811F1F2A8CF000E0B1AE /* MGStackArrayImp.m */; };
+		8CA481241F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */; };
+		8CA481251F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		8CA481171F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLinkedListDoubleTailImp.m; path = "Data Structures/Linked Lists/MGLinkedListDoubleTailImp.m"; sourceTree = "<group>"; };
 		8CA4811A1F2A80A700E0B1AE /* MGLinkedListCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLinkedListCheck.h; path = "Data Structures/Linked Lists/MGLinkedListCheck.h"; sourceTree = "<group>"; };
 		8CA4811B1F2A80A700E0B1AE /* MGLinkedListCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLinkedListCheck.m; path = "Data Structures/Linked Lists/MGLinkedListCheck.m"; sourceTree = "<group>"; };
+		8CA4811E1F2A8CF000E0B1AE /* MGStackArrayImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGStackArrayImp.h; path = "Data Structures/Stacks/MGStackArrayImp.h"; sourceTree = "<group>"; };
+		8CA4811F1F2A8CF000E0B1AE /* MGStackArrayImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGStackArrayImp.m; path = "Data Structures/Stacks/MGStackArrayImp.m"; sourceTree = "<group>"; };
+		8CA481221F2A8D1400E0B1AE /* MGStackLinkListImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGStackLinkListImp.h; path = "Data Structures/Stacks/MGStackLinkListImp.h"; sourceTree = "<group>"; };
+		8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGStackLinkListImp.m; path = "Data Structures/Stacks/MGStackLinkListImp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,10 @@
 			isa = PBXGroup;
 			children = (
 				8CA481071F2A726500E0B1AE /* MGStack.h */,
+				8CA4811E1F2A8CF000E0B1AE /* MGStackArrayImp.h */,
+				8CA4811F1F2A8CF000E0B1AE /* MGStackArrayImp.m */,
+				8CA481221F2A8D1400E0B1AE /* MGStackLinkListImp.h */,
+				8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */,
 			);
 			name = Stacks;
 			sourceTree = "<group>";
@@ -307,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA4811C1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */,
+				8CA481201F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */,
 				8CA481181F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */,
 				8CA480DF1F2A6F6900E0B1AE /* ViewController.m in Sources */,
 				8CA4810C1F2A78EB00E0B1AE /* MGLinkedListSingleImp.m in Sources */,
@@ -314,6 +327,7 @@
 				8CA481101F2A790600E0B1AE /* MGLinkedListDoubleImp.m in Sources */,
 				8CA481031F2A71CB00E0B1AE /* MGNode.m in Sources */,
 				8CA480DC1F2A6F6900E0B1AE /* AppDelegate.m in Sources */,
+				8CA481241F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */,
 				8CA480D91F2A6F6800E0B1AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +339,11 @@
 				8CA480F21F2A6F6900E0B1AE /* StudyTests.m in Sources */,
 				8CA4810D1F2A78EB00E0B1AE /* MGLinkedListSingleImp.m in Sources */,
 				8CA481111F2A790600E0B1AE /* MGLinkedListDoubleImp.m in Sources */,
+				8CA481211F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */,
 				8CA481151F2A793100E0B1AE /* MGLinkedListSingleTailImp.m in Sources */,
 				8CA481191F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */,
 				8CA481041F2A71CB00E0B1AE /* MGNode.m in Sources */,
+				8CA481251F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */,
 				8CA4811D1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

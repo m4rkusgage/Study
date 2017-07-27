@@ -46,6 +46,22 @@
     _counter++;
 }
 
+- (MGNode *)getFirstElement
+{
+    if (!self.head) {
+        @throw [NSException new];
+    }
+    return self.head;
+}
+
+- (MGNode *)getLastElement
+{
+    if (!self.head) {
+        @throw [NSException new];
+    }
+    return self.tail;
+}
+
 - (void)removeFront
 {
     if (!self.head) {
