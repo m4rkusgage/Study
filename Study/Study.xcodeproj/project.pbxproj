@@ -30,6 +30,12 @@
 		8CA481211F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4811F1F2A8CF000E0B1AE /* MGStackArrayImp.m */; };
 		8CA481241F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */; };
 		8CA481251F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */; };
+		8CA481281F2A973100E0B1AE /* MGQueueLinkedListImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481271F2A973100E0B1AE /* MGQueueLinkedListImp.m */; };
+		8CA481291F2A973100E0B1AE /* MGQueueLinkedListImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481271F2A973100E0B1AE /* MGQueueLinkedListImp.m */; };
+		8CA4812C1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812B1F2A977100E0B1AE /* MGQueueDoubleStackImp.m */; };
+		8CA4812D1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812B1F2A977100E0B1AE /* MGQueueDoubleStackImp.m */; };
+		8CA481301F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */; };
+		8CA481311F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +82,12 @@
 		8CA4811F1F2A8CF000E0B1AE /* MGStackArrayImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGStackArrayImp.m; path = "Data Structures/Stacks/MGStackArrayImp.m"; sourceTree = "<group>"; };
 		8CA481221F2A8D1400E0B1AE /* MGStackLinkListImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGStackLinkListImp.h; path = "Data Structures/Stacks/MGStackLinkListImp.h"; sourceTree = "<group>"; };
 		8CA481231F2A8D1400E0B1AE /* MGStackLinkListImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGStackLinkListImp.m; path = "Data Structures/Stacks/MGStackLinkListImp.m"; sourceTree = "<group>"; };
+		8CA481261F2A973100E0B1AE /* MGQueueLinkedListImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGQueueLinkedListImp.h; path = "Data Structures/Queues/MGQueueLinkedListImp.h"; sourceTree = "<group>"; };
+		8CA481271F2A973100E0B1AE /* MGQueueLinkedListImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGQueueLinkedListImp.m; path = "Data Structures/Queues/MGQueueLinkedListImp.m"; sourceTree = "<group>"; };
+		8CA4812A1F2A977100E0B1AE /* MGQueueDoubleStackImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGQueueDoubleStackImp.h; path = "Data Structures/Queues/MGQueueDoubleStackImp.h"; sourceTree = "<group>"; };
+		8CA4812B1F2A977100E0B1AE /* MGQueueDoubleStackImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGQueueDoubleStackImp.m; path = "Data Structures/Queues/MGQueueDoubleStackImp.m"; sourceTree = "<group>"; };
+		8CA4812E1F2A9A1700E0B1AE /* MGQueueArrayImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGQueueArrayImp.h; path = "Data Structures/Queues/MGQueueArrayImp.h"; sourceTree = "<group>"; };
+		8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGQueueArrayImp.m; path = "Data Structures/Queues/MGQueueArrayImp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +197,12 @@
 			isa = PBXGroup;
 			children = (
 				8CA481061F2A724600E0B1AE /* MGQueue.h */,
+				8CA481261F2A973100E0B1AE /* MGQueueLinkedListImp.h */,
+				8CA481271F2A973100E0B1AE /* MGQueueLinkedListImp.m */,
+				8CA4812A1F2A977100E0B1AE /* MGQueueDoubleStackImp.h */,
+				8CA4812B1F2A977100E0B1AE /* MGQueueDoubleStackImp.m */,
+				8CA4812E1F2A9A1700E0B1AE /* MGQueueArrayImp.h */,
+				8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */,
 			);
 			name = Queues;
 			sourceTree = "<group>";
@@ -320,11 +338,14 @@
 			files = (
 				8CA4811C1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */,
 				8CA481201F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */,
+				8CA4812C1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */,
 				8CA481181F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */,
 				8CA480DF1F2A6F6900E0B1AE /* ViewController.m in Sources */,
 				8CA4810C1F2A78EB00E0B1AE /* MGLinkedListSingleImp.m in Sources */,
+				8CA481301F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */,
 				8CA481141F2A793100E0B1AE /* MGLinkedListSingleTailImp.m in Sources */,
 				8CA481101F2A790600E0B1AE /* MGLinkedListDoubleImp.m in Sources */,
+				8CA481281F2A973100E0B1AE /* MGQueueLinkedListImp.m in Sources */,
 				8CA481031F2A71CB00E0B1AE /* MGNode.m in Sources */,
 				8CA480DC1F2A6F6900E0B1AE /* AppDelegate.m in Sources */,
 				8CA481241F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */,
@@ -339,11 +360,14 @@
 				8CA480F21F2A6F6900E0B1AE /* StudyTests.m in Sources */,
 				8CA4810D1F2A78EB00E0B1AE /* MGLinkedListSingleImp.m in Sources */,
 				8CA481111F2A790600E0B1AE /* MGLinkedListDoubleImp.m in Sources */,
+				8CA4812D1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */,
 				8CA481211F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */,
 				8CA481151F2A793100E0B1AE /* MGLinkedListSingleTailImp.m in Sources */,
+				8CA481291F2A973100E0B1AE /* MGQueueLinkedListImp.m in Sources */,
 				8CA481191F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */,
 				8CA481041F2A71CB00E0B1AE /* MGNode.m in Sources */,
 				8CA481251F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */,
+				8CA481311F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */,
 				8CA4811D1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
