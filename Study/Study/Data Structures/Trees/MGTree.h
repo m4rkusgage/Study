@@ -11,6 +11,7 @@
 
 @protocol MGTree <NSObject>
 - (void)insert:(id)item;
+- (void)delete:(id)item;
 - (MGNode *)search:(id)item;
 - (void)preOrderDisplay;
 - (void)inOrderDisplay;

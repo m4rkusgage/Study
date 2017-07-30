@@ -36,6 +36,10 @@
 		8CA4812D1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812B1F2A977100E0B1AE /* MGQueueDoubleStackImp.m */; };
 		8CA481301F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */; };
 		8CA481311F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */; };
+		8CA481401F2AF43300E0B1AE /* MGTreeBSTImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4813F1F2AF43300E0B1AE /* MGTreeBSTImp.m */; };
+		8CA481411F2AF43300E0B1AE /* MGTreeBSTImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4813F1F2AF43300E0B1AE /* MGTreeBSTImp.m */; };
+		8CA481441F2D7ABE00E0B1AE /* MGTreeHeapImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481431F2D7ABD00E0B1AE /* MGTreeHeapImp.m */; };
+		8CA481451F2D7ABE00E0B1AE /* MGTreeHeapImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA481431F2D7ABD00E0B1AE /* MGTreeHeapImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +92,10 @@
 		8CA4812B1F2A977100E0B1AE /* MGQueueDoubleStackImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGQueueDoubleStackImp.m; path = "Data Structures/Queues/MGQueueDoubleStackImp.m"; sourceTree = "<group>"; };
 		8CA4812E1F2A9A1700E0B1AE /* MGQueueArrayImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGQueueArrayImp.h; path = "Data Structures/Queues/MGQueueArrayImp.h"; sourceTree = "<group>"; };
 		8CA4812F1F2A9A1700E0B1AE /* MGQueueArrayImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGQueueArrayImp.m; path = "Data Structures/Queues/MGQueueArrayImp.m"; sourceTree = "<group>"; };
+		8CA4813E1F2AF43300E0B1AE /* MGTreeBSTImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTreeBSTImp.h; path = "Data Structures/Trees/MGTreeBSTImp.h"; sourceTree = "<group>"; };
+		8CA4813F1F2AF43300E0B1AE /* MGTreeBSTImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTreeBSTImp.m; path = "Data Structures/Trees/MGTreeBSTImp.m"; sourceTree = "<group>"; };
+		8CA481421F2D7ABD00E0B1AE /* MGTreeHeapImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTreeHeapImp.h; path = "Data Structures/Trees/MGTreeHeapImp.h"; sourceTree = "<group>"; };
+		8CA481431F2D7ABD00E0B1AE /* MGTreeHeapImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTreeHeapImp.m; path = "Data Structures/Trees/MGTreeHeapImp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				8CA481091F2A772E00E0B1AE /* MGTree.h */,
+				8CA4813E1F2AF43300E0B1AE /* MGTreeBSTImp.h */,
+				8CA4813F1F2AF43300E0B1AE /* MGTreeBSTImp.m */,
+				8CA481421F2D7ABD00E0B1AE /* MGTreeHeapImp.h */,
+				8CA481431F2D7ABD00E0B1AE /* MGTreeHeapImp.m */,
 			);
 			name = Trees;
 			sourceTree = "<group>";
@@ -340,10 +352,12 @@
 				8CA481201F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */,
 				8CA4812C1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */,
 				8CA481181F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */,
+				8CA481441F2D7ABE00E0B1AE /* MGTreeHeapImp.m in Sources */,
 				8CA480DF1F2A6F6900E0B1AE /* ViewController.m in Sources */,
 				8CA4810C1F2A78EB00E0B1AE /* MGLinkedListSingleImp.m in Sources */,
 				8CA481301F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */,
 				8CA481141F2A793100E0B1AE /* MGLinkedListSingleTailImp.m in Sources */,
+				8CA481401F2AF43300E0B1AE /* MGTreeBSTImp.m in Sources */,
 				8CA481101F2A790600E0B1AE /* MGLinkedListDoubleImp.m in Sources */,
 				8CA481281F2A973100E0B1AE /* MGQueueLinkedListImp.m in Sources */,
 				8CA481031F2A71CB00E0B1AE /* MGNode.m in Sources */,
@@ -359,6 +373,7 @@
 			files = (
 				8CA480F21F2A6F6900E0B1AE /* StudyTests.m in Sources */,
 				8CA4810D1F2A78EB00E0B1AE /* MGLinkedListSingleImp.m in Sources */,
+				8CA481451F2D7ABE00E0B1AE /* MGTreeHeapImp.m in Sources */,
 				8CA481111F2A790600E0B1AE /* MGLinkedListDoubleImp.m in Sources */,
 				8CA4812D1F2A977100E0B1AE /* MGQueueDoubleStackImp.m in Sources */,
 				8CA481211F2A8CF000E0B1AE /* MGStackArrayImp.m in Sources */,
@@ -366,6 +381,7 @@
 				8CA481291F2A973100E0B1AE /* MGQueueLinkedListImp.m in Sources */,
 				8CA481191F2A794E00E0B1AE /* MGLinkedListDoubleTailImp.m in Sources */,
 				8CA481041F2A71CB00E0B1AE /* MGNode.m in Sources */,
+				8CA481411F2AF43300E0B1AE /* MGTreeBSTImp.m in Sources */,
 				8CA481251F2A8D1400E0B1AE /* MGStackLinkListImp.m in Sources */,
 				8CA481311F2A9A1700E0B1AE /* MGQueueArrayImp.m in Sources */,
 				8CA4811D1F2A80A700E0B1AE /* MGLinkedListCheck.m in Sources */,

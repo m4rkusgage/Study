@@ -14,6 +14,7 @@
 - (void)insertBack:(id)element;
 - (void)removeFront;
 - (void)removeBack;
+- (void)delete:(id)element;
 - (MGNode *)find:(id)element;
 - (MGNode *)getFirstElement;
 - (MGNode *)getLastElement;
